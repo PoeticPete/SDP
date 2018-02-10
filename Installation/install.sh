@@ -21,6 +21,7 @@ sudo apt-get install build-essential \
     python3-numpy \
     python3-pip \
     zip
+sudo apt install python3-gpiozero
 sudo apt-get clean
 sudo apt-get install python3-picamera
 sudo pip3 install --upgrade picamera[array]
