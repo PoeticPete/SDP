@@ -33,7 +33,7 @@ git clone -b 'v19.6' --single-branch https://github.com/davisking/dlib.git dlib/
 cd ./dlib
 sudo python3 setup.py install --compiler-flags "-mfpu=neon"
 sudo pip3 install face_recognition
-sudo mv dphys-swapfile /etc/dphys-swapfile 
+sudo mv dphys-swapfile /etc/dphys-swapfile
 sudo /etc/init.d/dphys-swapfile restart
 sudo apt-get install libatlas-base-dev
 
